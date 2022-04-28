@@ -1,0 +1,61 @@
+*{
+  margin: 0%;
+}
+
+.blog{
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows: auto;
+  grid-template-areas:"p1"
+                      "p2"
+                      "p3";
+}
+
+
+nav {
+  background-color: rgb(48, 48, 41);
+  display: grid;
+  grid-area: nav;
+  align-items: center;
+  text-align: center;
+  column-gap: 500vw;
+  padding: 1vw;
+}
+
+
+.space{
+  padding-right: 45vw;
+  margin-left: -5vw;
+} 
+
+nav>ul>li>a{
+  margin-left: 5vw;
+  text-decoration: none;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav>ul>li{
+  list-style-type: none;
+}
+
+.p1{
+  background-color: red;
+  grid-area: p1;
+  padding: 5vw;
+  margin: 3vw;
+}
+
+.p2{
+  background-color: red;
+  grid-area: p2;
+  padding: 5vw;
+  margin: 3vw;
+}
+
+.p3{
+  background-color: red;
+  grid-area: p3;
+  padding: 5vw;
+  margin: 3vw;
+}
