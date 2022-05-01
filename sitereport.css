@@ -2,13 +2,11 @@
   margin: 0%;
 }
 
-.blog{
+body{
   display: grid;
-  grid-template-columns:1fr;
+  grid-template-columns:;
   grid-template-rows: auto;
-  grid-template-areas:"p1"
-                      "p2"
-                      "p3";
+  grid-template-areas:"";
 }
 
 
@@ -41,26 +39,13 @@ nav>ul>li{
   list-style-type: none;
 }
 
-.p1{
-  background-color: red;
-  grid-area: p1;
-  padding: 5vw;
-  margin: 7vw 3vw 3vw 3vw;
+.report{
+  margin: 7vw 5vw 5vw 5vw;
   font-family: 'Yantramanav', sans-serif;
 }
 
-.p2{
-  background-color: red;
-  grid-area: p2;
-  padding: 5vw;
-  margin: 3vw;
-  font-family: 'Yantramanav', sans-serif;
-}
 
-.p3{
-  background-color: red;
-  grid-area: p3;
-  padding: 5vw;
-  margin: 3vw;
-  font-family: 'Yantramanav', sans-serif;
+.images{
+  width: 500px;
+  height: 500px;
 }

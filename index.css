@@ -20,6 +20,8 @@ nav {
   text-align: center;
   column-gap: 500vw;
   padding: 1vw;
+  position: fixed;
+  width: 100%;
 }
 
 
@@ -43,7 +45,7 @@ nav>ul>li{
   display: grid;
   grid-area: welcome;
   text-align: center;
-  margin: 10vw;
+  margin: 15vw 10vw 10vw 10vw;
   font-size: 2vw;
   font-family: 'Oswald', sans-serif;
 }
@@ -52,6 +54,7 @@ nav>ul>li{
   display: grid;
   grid-area: image;
   margin: 5vw 0vw 5vw 5vw;
+
 }
 
 .bio{
@@ -59,6 +62,7 @@ nav>ul>li{
  grid-area: bio;
  margin: 5vw 5vw 5vw 0vw;
  font-size: 1.5vw;
+ font-family: 'Yantramanav', sans-serif;
 }
 
 
